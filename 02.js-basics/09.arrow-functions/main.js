@@ -6,12 +6,18 @@ const ten = () => {
     return 10
 }
 
+const anotherTen = _ => {
+    return 10
+}
+
 // here the function is not called. notice there are no parentheses. 
 // this prints: [Function: ten]
 console.log(ten)
+console.log(anotherTen)
 
 // here the function is called.  prints: 10
 console.log(ten())
+console.log(anotherTen())
 
 
 // 2. Make a function named logger that takes in one argument. It logs the argument you 
