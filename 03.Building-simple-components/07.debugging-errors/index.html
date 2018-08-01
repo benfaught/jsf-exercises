@@ -1,0 +1,20 @@
+<a href="#" class="button">Link that looks like a button</a>
+
+<script>
+    /*  original errored code:
+
+     const button = document.querySelector('button')  //needs . before button
+     button.addEventListener('click' e => {           // comma after 'click'
+     console.log('Button clicked!'))                  // parenthesis removed
+     })
+     
+     *************/
+
+    // fixed code: 
+    const button = document.querySelector('.button')
+
+    button.addEventListener('click', e => {
+    console.log('Button clicked!')
+    })
+
+</script>
