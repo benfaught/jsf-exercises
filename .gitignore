@@ -75,3 +75,7 @@ images/**
 #production-files
 Caddyfile
 config.go
+
+#javascript/npm
+package-lock.json
+.prettierrc
