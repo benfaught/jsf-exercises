@@ -2,33 +2,32 @@
 
 const str = ''
 
-if(!str) {
+if (!str) {
   // Only do something if string is empty (NOT truthy)
-  console.log('I\'m empty')
+  console.log("I'm empty")
 }
-
 
 // null is falsey. However, it is not a boolean, it is an object which is a falsey value.
 // example
-if(null === false) {
-    console.log('Yes, equal in value and type.')
+if (null === false) {
+  console.log('Yes, equal in value and type.')
 } else {
-    console.log('No, not equal in value and type')
+  console.log('No, not equal in value and type')
 }
 
 // if we use !! on null, it is converted to a boolean of it's falsey value.
 // example: you see it matches false in both value and type.
-if(!!null === false) {
-    console.log('Yes, equal in value and type.')
+if (!!null === false) {
+  console.log('Yes, equal in value and type.')
 } else {
-    console.log('No, not equal in value and type')
+  console.log('No, not equal in value and type')
 }
 
 // Exercises
 
 // What values would you get for each of these expressions?
 
-// 1. !2550284 
+// 1. !2550284
 // 2. !true
 // 3. !NaN
 // 4. !{}
