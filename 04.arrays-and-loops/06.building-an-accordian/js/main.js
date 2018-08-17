@@ -12,10 +12,16 @@ accordions.forEach(accordion => {
     accordion.classList.toggle('is-open')
   })
 })
-
-
-
-
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 // ********* Other ways to implement this ************
 
 // for of loop: second best way..............................
